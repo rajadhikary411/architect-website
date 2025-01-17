@@ -154,11 +154,25 @@ main>section{
    
 }
 .fea{
-    gap: 14  0px;
+    gap: 140px;
+}
+#badge1{
+    padding: 45px 42px;
+    font-size: 1.9rem;
+    font-weight:600;
+    
+}
+.left{
+  margin-left: -100px;
+  margin-top: -70px;
+
+}
+.img2{
+    width: 100%;
 }
 /* responsive media */
 @media screen and (max-width:576px) {
-    .navber,.nav-link,.teams{
+    .navber,.nav-link,.teams,.fea{
         display: flex;
         flex-direction: column;
     }
@@ -171,6 +185,9 @@ main>section{
     .fatcs-con,.spon-com{
         justify-items: center;
         gap: 24px;
+    }
+    .left{
+        margin: 0px;
     }
 }
 @media  screen and (min-width:576px) and (max-width:992px) {
